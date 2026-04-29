@@ -125,7 +125,7 @@ namespace VoiceAI
                 PrepareCheckAgentStatusApiV1ConnectionAgentStatusAgentIdGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    agentId: agentId);
+                    agentId: agentId!);
 
                 return __httpRequest;
             }

@@ -125,7 +125,7 @@ namespace VoiceAI
                 PrepareGetTranscriptUrlApiV1AgentCallHistorySummaryIdTranscriptGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    summaryId: summaryId);
+                    summaryId: summaryId!);
 
                 return __httpRequest;
             }

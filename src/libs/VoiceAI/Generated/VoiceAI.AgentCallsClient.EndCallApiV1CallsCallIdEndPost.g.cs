@@ -135,7 +135,7 @@ namespace VoiceAI
                 PrepareEndCallApiV1CallsCallIdEndPostRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    callId: callId,
+                    callId: callId!,
                     actualDurationSeconds: actualDurationSeconds);
 
                 return __httpRequest;

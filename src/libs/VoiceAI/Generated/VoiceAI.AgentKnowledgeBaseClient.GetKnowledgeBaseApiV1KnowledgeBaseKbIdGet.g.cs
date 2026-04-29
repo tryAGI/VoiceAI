@@ -125,7 +125,7 @@ namespace VoiceAI
                 PrepareGetKnowledgeBaseApiV1KnowledgeBaseKbIdGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    kbId: kbId);
+                    kbId: kbId!);
 
                 return __httpRequest;
             }

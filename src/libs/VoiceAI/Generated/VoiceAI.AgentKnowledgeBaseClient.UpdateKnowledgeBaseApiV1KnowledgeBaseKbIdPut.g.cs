@@ -139,7 +139,7 @@ namespace VoiceAI
                 PrepareUpdateKnowledgeBaseApiV1KnowledgeBaseKbIdPutRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    kbId: kbId,
+                    kbId: kbId!,
                     request: request);
 
                 return __httpRequest;

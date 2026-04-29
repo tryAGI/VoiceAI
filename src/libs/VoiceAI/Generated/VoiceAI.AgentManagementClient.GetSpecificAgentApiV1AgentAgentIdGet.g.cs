@@ -125,7 +125,7 @@ namespace VoiceAI
                 PrepareGetSpecificAgentApiV1AgentAgentIdGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    agentId: agentId);
+                    agentId: agentId!);
 
                 return __httpRequest;
             }

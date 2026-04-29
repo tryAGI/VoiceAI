@@ -139,7 +139,7 @@ namespace VoiceAI
                 PrepareUpdateApiKeyApiV1AuthApiKeyKeyIdPutRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    keyId: keyId,
+                    keyId: keyId!,
                     request: request);
 
                 return __httpRequest;
