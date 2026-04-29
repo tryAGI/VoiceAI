@@ -139,7 +139,7 @@ namespace VoiceAI
                 PrepareUpdateExistingAgentApiV1AgentAgentIdPutRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    agentId: agentId,
+                    agentId: agentId!,
                     request: request);
 
                 return __httpRequest;

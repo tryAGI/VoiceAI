@@ -120,7 +120,7 @@ namespace VoiceAI
                 PrepareDeleteKnowledgeBaseApiV1KnowledgeBaseKbIdDeleteRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    kbId: kbId);
+                    kbId: kbId!);
 
                 return __httpRequest;
             }

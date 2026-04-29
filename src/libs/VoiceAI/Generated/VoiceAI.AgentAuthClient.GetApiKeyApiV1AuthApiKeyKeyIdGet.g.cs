@@ -125,7 +125,7 @@ namespace VoiceAI
                 PrepareGetApiKeyApiV1AuthApiKeyKeyIdGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    keyId: keyId);
+                    keyId: keyId!);
 
                 return __httpRequest;
             }

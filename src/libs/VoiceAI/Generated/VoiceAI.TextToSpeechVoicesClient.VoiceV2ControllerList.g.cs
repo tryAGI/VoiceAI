@@ -128,7 +128,7 @@ namespace VoiceAI
                 PrepareVoiceV2ControllerListRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    filter: filter);
+                    filter: filter!);
 
                 return __httpRequest;
             }
