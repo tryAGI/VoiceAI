@@ -43,7 +43,7 @@ namespace VoiceAI
         /// <summary>
         /// 
         /// </summary>
-        public AgentAuthClient AgentAuth => new AgentAuthClient(HttpClient, authorizations: Authorizations, options: Options)
+        public AgentAuthClient AgentAuth => new AgentAuthClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -52,7 +52,7 @@ namespace VoiceAI
         /// <summary>
         /// 
         /// </summary>
-        public AgentCallsClient AgentCalls => new AgentCallsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public AgentCallsClient AgentCalls => new AgentCallsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -61,7 +61,7 @@ namespace VoiceAI
         /// <summary>
         /// 
         /// </summary>
-        public AgentConnectionClient AgentConnection => new AgentConnectionClient(HttpClient, authorizations: Authorizations, options: Options)
+        public AgentConnectionClient AgentConnection => new AgentConnectionClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -70,7 +70,7 @@ namespace VoiceAI
         /// <summary>
         /// 
         /// </summary>
-        public AgentKnowledgeBaseClient AgentKnowledgeBase => new AgentKnowledgeBaseClient(HttpClient, authorizations: Authorizations, options: Options)
+        public AgentKnowledgeBaseClient AgentKnowledgeBase => new AgentKnowledgeBaseClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -79,7 +79,7 @@ namespace VoiceAI
         /// <summary>
         /// 
         /// </summary>
-        public AgentManagementClient AgentManagement => new AgentManagementClient(HttpClient, authorizations: Authorizations, options: Options)
+        public AgentManagementClient AgentManagement => new AgentManagementClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -88,7 +88,7 @@ namespace VoiceAI
         /// <summary>
         /// 
         /// </summary>
-        public TextToSpeechAudioClient TextToSpeechAudio => new TextToSpeechAudioClient(HttpClient, authorizations: Authorizations, options: Options)
+        public TextToSpeechAudioClient TextToSpeechAudio => new TextToSpeechAudioClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -97,7 +97,7 @@ namespace VoiceAI
         /// <summary>
         /// 
         /// </summary>
-        public TextToSpeechVoicesClient TextToSpeechVoices => new TextToSpeechVoicesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public TextToSpeechVoicesClient TextToSpeechVoices => new TextToSpeechVoicesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -136,10 +136,10 @@ namespace VoiceAI
         /// <param name="options">Client-wide request defaults such as headers, query parameters, retries, and timeout.</param>
         /// <param name="disposeHttpClient">Dispose the HttpClient when the instance is disposed. True by default.</param>
         public VoiceAIClient(
-            global::System.Net.Http.HttpClient? httpClient = null,
-            global::System.Uri? baseUri = null,
-            global::System.Collections.Generic.List<global::VoiceAI.EndPointAuthorization>? authorizations = null,
-            global::VoiceAI.AutoSDKClientOptions? options = null,
+            global::System.Net.Http.HttpClient? httpClient,
+            global::System.Uri? baseUri,
+            global::System.Collections.Generic.List<global::VoiceAI.EndPointAuthorization>? authorizations,
+            global::VoiceAI.AutoSDKClientOptions? options,
             bool disposeHttpClient = true)
         {
 
