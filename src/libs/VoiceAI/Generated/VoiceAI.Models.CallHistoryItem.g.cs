@@ -143,5 +143,6 @@ namespace VoiceAI
         public CallHistoryItem()
         {
         }
+
     }
 }

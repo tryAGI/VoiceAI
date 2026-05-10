@@ -64,5 +64,6 @@ namespace VoiceAI
         public VoiceUpdateRequest()
         {
         }
+
     }
 }

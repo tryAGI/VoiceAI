@@ -50,5 +50,6 @@ namespace VoiceAI
         public PaginatedCallHistoryResponse()
         {
         }
+
     }
 }

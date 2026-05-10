@@ -96,5 +96,6 @@ namespace VoiceAI
         public VoiceUploadListResponseItem()
         {
         }
+
     }
 }

@@ -109,5 +109,6 @@ namespace VoiceAI
         public AgentStatusResponse()
         {
         }
+
     }
 }
