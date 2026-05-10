@@ -66,5 +66,6 @@ namespace VoiceAI
         public UpdateAPIKeyRequest()
         {
         }
+
     }
 }

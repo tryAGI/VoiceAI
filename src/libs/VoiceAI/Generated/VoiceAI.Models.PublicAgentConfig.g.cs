@@ -289,5 +289,6 @@ namespace VoiceAI
         public PublicAgentConfig()
         {
         }
+
     }
 }

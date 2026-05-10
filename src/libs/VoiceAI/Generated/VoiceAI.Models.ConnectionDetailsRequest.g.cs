@@ -57,5 +57,6 @@ namespace VoiceAI
         public ConnectionDetailsRequest()
         {
         }
+
     }
 }

@@ -50,5 +50,6 @@ namespace VoiceAI
         public AgentStatsSummaryResponse()
         {
         }
+
     }
 }

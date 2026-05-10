@@ -80,5 +80,6 @@ namespace VoiceAI
         public DashboardStats()
         {
         }
+
     }
 }
