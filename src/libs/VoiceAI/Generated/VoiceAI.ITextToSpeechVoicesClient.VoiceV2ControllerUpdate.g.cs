@@ -21,6 +21,19 @@ namespace VoiceAI
         /// Update Voice<br/>
         /// Update one of your uploaded voices
         /// </summary>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::VoiceAI.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::VoiceAI.AutoSDKHttpResponse<global::VoiceAI.VoiceUploadCreateResponse>> VoiceV2ControllerUpdateAsResponseAsync(
+
+            global::VoiceAI.VoiceUpdateRequest request,
+            global::VoiceAI.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Update Voice<br/>
+        /// Update one of your uploaded voices
+        /// </summary>
         /// <param name="name">
         /// The name of the voice
         /// </param>

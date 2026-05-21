@@ -49,5 +49,6 @@ namespace VoiceAI
         public AgentDisableResponse()
         {
         }
+
     }
 }

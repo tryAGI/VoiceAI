@@ -63,5 +63,6 @@ namespace VoiceAI
         public AgentStatusSummary()
         {
         }
+
     }
 }

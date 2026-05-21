@@ -117,5 +117,6 @@ namespace VoiceAI
         public KnowledgeBaseWithDocuments()
         {
         }
+
     }
 }

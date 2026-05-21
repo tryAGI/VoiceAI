@@ -40,5 +40,6 @@ namespace VoiceAI
         public TranscriptResponse()
         {
         }
+
     }
 }

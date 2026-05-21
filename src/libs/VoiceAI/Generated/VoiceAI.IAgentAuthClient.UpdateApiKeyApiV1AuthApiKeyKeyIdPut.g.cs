@@ -24,6 +24,21 @@ namespace VoiceAI
         /// Update an API key.
         /// </summary>
         /// <param name="keyId"></param>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::VoiceAI.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::VoiceAI.AutoSDKHttpResponse<global::VoiceAI.APIKeyResponse>> UpdateApiKeyApiV1AuthApiKeyKeyIdPutAsResponseAsync(
+            int keyId,
+
+            global::VoiceAI.UpdateAPIKeyRequest request,
+            global::VoiceAI.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// API Key<br/>
+        /// Update an API key.
+        /// </summary>
+        /// <param name="keyId"></param>
         /// <param name="name"></param>
         /// <param name="description"></param>
         /// <param name="isActive"></param>

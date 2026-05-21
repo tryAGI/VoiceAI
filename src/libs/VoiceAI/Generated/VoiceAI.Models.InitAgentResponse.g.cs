@@ -61,5 +61,6 @@ namespace VoiceAI
         public InitAgentResponse()
         {
         }
+
     }
 }
