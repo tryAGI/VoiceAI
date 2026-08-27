@@ -20,7 +20,7 @@ namespace VoiceAI.JsonConverters
                     {
                         return global::VoiceAI.AgentPlaygroundVisibilityExtensions.ToEnum(stringValue) ?? default;
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

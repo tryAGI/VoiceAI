@@ -4,40 +4,40 @@
 namespace VoiceAI
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class DashboardStats
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("number_of_calls")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required int NumberOfCalls { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("average_duration")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required double AverageDuration { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("total_credits_used")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required double TotalCreditsUsed { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("avg_credits_per_call")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required double AvgCreditsPerCall { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("daily_stats")]
         [global::System.Text.Json.Serialization.JsonRequired]
