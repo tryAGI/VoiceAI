@@ -4,19 +4,19 @@
 namespace VoiceAI
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ListAPIKeysResponse
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("api_keys")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::System.Collections.Generic.IList<global::VoiceAI.APIKeyResponse> ApiKeys { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("total_keys")]
         [global::System.Text.Json.Serialization.JsonRequired]

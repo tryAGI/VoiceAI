@@ -4,7 +4,7 @@
 namespace VoiceAI
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class CreateAgentRequest
     {
@@ -16,20 +16,20 @@ namespace VoiceAI
         public required string Name { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("config")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::VoiceAI.PublicAgentConfig Config { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("kb_id")]
         public int? KbId { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("documents")]
         public global::System.Collections.Generic.IList<object>? Documents { get; set; }

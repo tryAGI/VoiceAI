@@ -4,26 +4,26 @@
 namespace VoiceAI
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class DailyStat
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("date")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Date { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("total_calls")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required int TotalCalls { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("total_credits")]
         [global::System.Text.Json.Serialization.JsonRequired]

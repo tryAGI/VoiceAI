@@ -11,7 +11,7 @@ namespace VoiceAI
     public sealed partial class VoiceAIClient : global::VoiceAI.IVoiceAIClient, global::System.IDisposable
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public const string DefaultBaseUrl = "https://api.voice.ai/";
 
@@ -38,7 +38,7 @@ namespace VoiceAI
         internal global::System.Lazy<global::System.Text.Json.Serialization.JsonSerializerContext> JsonSerializerContextProvider { get; set; } = new(() => global::VoiceAI.SourceGenerationContext.Default);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::System.Text.Json.Serialization.JsonSerializerContext JsonSerializerContext
         {
@@ -48,7 +48,7 @@ namespace VoiceAI
 
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentAuthClient AgentAuth => new AgentAuthClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -57,7 +57,7 @@ namespace VoiceAI
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentCallsClient AgentCalls => new AgentCallsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -66,7 +66,7 @@ namespace VoiceAI
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentConnectionClient AgentConnection => new AgentConnectionClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -75,7 +75,7 @@ namespace VoiceAI
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentKnowledgeBaseClient AgentKnowledgeBase => new AgentKnowledgeBaseClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -84,7 +84,7 @@ namespace VoiceAI
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentManagementClient AgentManagement => new AgentManagementClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -93,7 +93,7 @@ namespace VoiceAI
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public TextToSpeechAudioClient TextToSpeechAudio => new TextToSpeechAudioClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -102,7 +102,7 @@ namespace VoiceAI
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public TextToSpeechVoicesClient TextToSpeechVoices => new TextToSpeechVoicesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {

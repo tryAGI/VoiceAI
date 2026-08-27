@@ -4,7 +4,7 @@
 namespace VoiceAI
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class TTSParams
     {
@@ -16,7 +16,7 @@ namespace VoiceAI
         public global::VoiceAI.AnyOf<string, int?>? Speaker { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("voice_id")]
         public string? VoiceId { get; set; }

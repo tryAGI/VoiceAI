@@ -4,18 +4,18 @@
 namespace VoiceAI
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class PublicAgentConfig
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("prompt")]
         public string? Prompt { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("greeting")]
         public string? Greeting { get; set; }
@@ -39,7 +39,7 @@ namespace VoiceAI
         public int? TtsMinSentenceLen { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("tts_params")]
         public global::VoiceAI.TTSParams? TtsParams { get; set; }

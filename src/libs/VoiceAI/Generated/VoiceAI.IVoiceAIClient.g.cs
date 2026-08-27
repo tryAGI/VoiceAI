@@ -40,43 +40,43 @@ namespace VoiceAI
 
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         global::System.Text.Json.Serialization.JsonSerializerContext JsonSerializerContext { get; set; }
 
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentAuthClient AgentAuth { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentCallsClient AgentCalls { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentConnectionClient AgentConnection { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentKnowledgeBaseClient AgentKnowledgeBase { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AgentManagementClient AgentManagement { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public TextToSpeechAudioClient TextToSpeechAudio { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public TextToSpeechVoicesClient TextToSpeechVoices { get; }
 

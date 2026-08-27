@@ -4,19 +4,19 @@
 namespace VoiceAI
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class InitAgentResponse
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("agent_template")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required object AgentTemplate { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("available_types")]
         [global::System.Text.Json.Serialization.JsonRequired]

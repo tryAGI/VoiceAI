@@ -4,7 +4,7 @@
 namespace VoiceAI
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class AgentDeployResponseSipDetails
     {
