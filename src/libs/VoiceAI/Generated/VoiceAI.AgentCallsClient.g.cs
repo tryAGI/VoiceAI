@@ -34,14 +34,14 @@ namespace VoiceAI
         /// <inheritdoc/>
         public global::VoiceAI.AutoSDKClientOptions Options { get; }
 
-        internal global::System.Lazy<global::System.Text.Json.Serialization.JsonSerializerContext> JsonSerializerContextProvider { get; set; } = new(() => global::VoiceAI.AgentCallsSourceGenerationContext.Default);
+        internal global::System.Lazy<global::System.Text.Json.Serialization.JsonSerializerContext>? JsonSerializerContextProvider { get; set; }
 
         /// <summary>
         ///
         /// </summary>
         public global::System.Text.Json.Serialization.JsonSerializerContext JsonSerializerContext
         {
-            get => JsonSerializerContextProvider.Value;
+            get => JsonSerializerContextProvider?.Value ?? global::VoiceAI.AgentCallsSourceGenerationContext.Default;
             set => JsonSerializerContextProvider = new(() => value);
         }
 
